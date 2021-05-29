@@ -1,0 +1,167 @@
+{
+    "productos": [
+        {
+            "id": "iphone12",
+            "nombre": "iPhone 12",
+            "precio": 210400,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-12.jpg"
+        },
+        {
+            "id": "iphone12-pro",
+            "nombre": "iPhone 12 Pro",
+            "precio": 322999,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-12-pro.png"
+        },
+        {
+            "id": "iphone12-pro-max",
+            "nombre": "iPhone 12 Pro Max",
+            "precio": 356000,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-12-pro-max.png"
+        },
+        {
+            "id": "iphone12-mini",
+            "nombre": "iPhone 12 Mini",
+            "precio": 199900,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-12-mini.jpg"
+        },
+        {
+            "id": "iphone11",
+            "nombre": "iPhone 11",
+            "precio": 159795,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-11.jpg"
+        },
+        {
+            "id": "iphone11-pro",
+            "nombre": "iPhone 11 Pro",
+            "precio": 229390,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-11-pro.jpg"
+        },
+        {
+            "id": "iphonex",
+            "nombre": "iPhone x",
+            "precio": 144999,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-x.png"
+        },
+        {
+            "id": "iphonexr",
+            "nombre": "iPhone xr",
+            "precio": 158990,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-xr.png"
+        },
+        {
+            "id": "iphonexs",
+            "nombre": "iPhone xs",
+            "precio": 160000,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-xs.png"
+        },
+        {
+            "id": "iphonexs-max",
+            "nombre": "iPhone xs Max",
+            "precio": 150000,
+            "cantidad": 0,
+            "img": "../../imagenes/iphone/iphone-xs-max.png"
+        },
+    
+        {
+            "id": "macair13",
+            "nombre": "Macbook Air 13",
+            "precio": 159999,
+            "cantidad": 0,
+            "img": "../../imagenes/mac/macbook-air-13.jpg"
+        },
+        {
+            "id": "macair13-3",
+            "nombre": "Macbook Air 13.3",
+            "precio": 274999,
+            "cantidad": 0,
+            "img": "../../imagenes/mac/macbook-air-13-3.jpg"
+        },
+        {
+            "id": "macpro13",
+            "nombre": "Macbook Pro 13",
+            "precio": 280000,
+            "cantidad": 0,
+            "img": "../../imagenes/mac/macbook-pro-13.jpg"
+        },
+        {
+            "id": "macpro16",
+            "nombre": "Macbook Pro 16",
+            "precio": 549999,
+            "cantidad": 0,
+            "img": "../../imagenes/mac/macbook-pro-16.jpg"
+        },
+        {
+            "id": "imac27",
+            "nombre": "iMac 27",
+            "precio": 419999,
+            "cantidad": 0,
+            "img": "../../imagenes/mac/imac-27.png"
+        },
+        {
+            "id": "imac21-5",
+            "nombre": "iMac 21.5",
+            "precio": 229000,
+            "cantidad": 0,
+            "img": "../../imagenes/mac/imac-21-5.jpg"
+        },
+    
+        {
+            "id": "ipad8th",
+            "nombre": "iPad 8th",
+            "precio": 72390,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-8.jpg"
+        },
+        {
+            "id": "ipad7th",
+            "nombre": "iPad 7th",
+            "precio": 44792,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-7.jpg"
+        },
+        {
+            "id": "ipadair2020",
+            "nombre": "iPad Air 2020",
+            "precio": 154999,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-air-2020.jpg"
+        },
+        {
+            "id": "ipadair2019",
+            "nombre": "iPad Air 2019",
+            "precio": 139999,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-air-2019.jpg"
+        },
+        {
+            "id": "ipadpro12-9",
+            "nombre": "iPad Pro 12.9",
+            "precio": 226000,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-pro.jpg"
+        },
+        {
+            "id": "ipadpro11",
+            "nombre": "iPad Pro 11",
+            "precio": 164999,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-pro-2.jpg"
+        },
+        {
+            "id": "ipadpro9-7",
+            "nombre": "iPad Pro 9.7",
+            "precio": 60000,
+            "cantidad": 0,
+            "img": "../../imagenes/ipad/ipad-pro.jpg"
+        }
+    ]
+}

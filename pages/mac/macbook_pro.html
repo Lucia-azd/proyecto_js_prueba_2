@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontrá la Macbook Pro acá en iStore, no dudes en elegirnos, los mejores precios y la mayor seguridad en todas tus compras.">
+	<meta name="keywords" content="Apple, macbook pro, iphone, macbook, ipad, ofertas apple, istore">
+    <link  rel="icon" href="../../imagenes/favicon-istore.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <title>iStore | Macbook Pro</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-iconos">
+                <div class="logo">
+                    <a href="../inicio_sitio/index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="iconos">
+                    <a href="#" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="../carrito/carrito.html"><div class="conteo-carrito"><span>0</span></div></a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#ingresar">Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="#registrarse">Registrarse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVEGADOR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../iphone/iphone_12.html">iPhone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="macbook_air.html">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ipad/ipad.html">iPad</a>
+                        </li>
+                        <li class="nav-item"><div class="dropdown">
+                            
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVEGADOR -->
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- MODAL USUARIO -->
+    <section class="fondo-modal-usuario" id="ingresar">
+        <div class="modal-usuario">
+            <p class="titulo-ingresar">Iniciar sesión</p>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Contraseña</label>
+                    <div id="emailHelp" class="form-text"><a href="#">¿Olvidaste tu contraseña?</a></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div class="modal-cerrar"><a href="#">Cerrar</a></div>
+        </div>
+    </section>
+
+    <section class="fondo-modal-usuario" id="registrarse">
+        <div class="modal-usuario">
+            <p class="titulo-registrarse">Registrarse</p>
+            <form>
+                <div class="row nombre-apellido">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#">Términos y condiciones</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+            <a href="#" class="modal-cerrar">Cerrar</a>
+        </div>
+    </section>
+    <!-- FIN MODAL USUARIO -->
+
+    <!-- LISTA GUIA -->
+    <section class="lista-guia">
+        <div class="contenedor">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../inicio_sitio/index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Mac</li>
+                <li class="breadcrumb-item active" aria-current="page">Macbook Pro</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- FIN LISTA GUIA -->
+
+    <div class="contenedor contenedor-grid">
+        <!-- FILTRO -->
+        <section class="filtro">
+            <div class="contenedor">
+                <ul>
+                    <li><a href="macbook_air.html">Macbook Air <span>2</span></a></li>
+                    <li><a href="macbook_pro.html"><strong>Macbook Pro</strong> <span>2</span></a></li>
+                    <li><a href="imac.html">iMac <span>2</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- FIN FILTRO -->
+
+        <!-- PRODUCTOS -->
+        <section class="productos">
+            <div class="contenedor titulo-producto"> 
+                <h2>Macbook Pro</h2> 
+            </div>
+            <div class="contenedor-grid-productos-mac-pro"> 
+                <article class="item-producto-uno">
+                    <div class="contenedor-img-producto mac">
+                        <img src="../../imagenes/mac/macbook-pro-13.jpg" alt="macbook pro 13 pulgadas gris">
+                    </div>
+                    <p class="nombre-producto">Macbook Pro 13"</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$280.000</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$15.555</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-mac-pro-13" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('macpro13')">Comprar</button>
+                    </div>  
+                </article>
+
+                <article class="item-producto-dos">
+                    <div class="contenedor-img-producto mac">
+                        <img src="../../imagenes/mac/macbook-pro-16.jpg" alt="macbook pro 16 pulgadas gris">
+                    </div>
+                    <p class="nombre-producto">Macbook Pro 16"</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$549.999</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$30.555</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-mac-pro-16" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('macpro16')">Comprar</button>
+                    </div>  
+                </article>
+            </div>
+            
+            <!-- MODAL DETALLES PRODUCTOS-->
+            <section class="fondo-modal-detalles" id="detalles-mac-pro-13">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla retroiluminada por LED de 13,3 pulgadas (en diagonal) con tecnología IPS; resolución nativa de 2.560 por 1.600 a 227 píxeles por pulgada compatible con millones de colores</li>
+                            <li class="color-gris-oscuro">Brillo de 500 nits</li>
+                            <li class="color-gris-claro">Amplia gama de colores (P3)</li>
+                            <li class="color-gris-oscuro">Tecnología True Tone</li>
+                            <li class="color-gris-claro">Chip M1 de Apple</li>
+                            <li class="color-gris-oscuro">CPU de ocho núcleos con cuatro núcleos de rendimiento y cuatro de eficiencia</li>
+                            <li class="color-gris-claro">GPU de ocho núcleos</li>
+                            <li class="color-gris-oscuro">Neural Engine de 16 núcleos</li>
+                            <li class="color-gris-claro">8 GB de memoria unificada</li>
+                            <li class="color-gris-oscuro">SSD de 256 GB Configurable con: 512 GB, 1 TB o 2 TB</li>
+                            <li class="color-gris-claro">SSD de 512 GB Configurable con: 1 TB o 2 TB</li>
+                            <li class="color-gris-oscuro">Dos puertos Thunderbolt/USB 4</li>
+                            <li class="color-gris-claro">DisplayPort</li>
+                            <li class="color-gris-oscuro">Thunderbolt 3 (hasta 40 Gb/s)</li>
+                            <li class="color-gris-claro">USB 3.1 Gen 2 (hasta 10 Gb/s)</li>
+                            <li class="color-gris-oscuro">Teclado Magic Keyboard retroiluminado</li>
+                            <li class="color-gris-claro">66 teclas, entre ellas 4 de flecha dispuestas en forma de T invertida</li>
+                            <li class="color-gris-oscuro">Touch Bar</li>
+                            <li class="color-gris-claro">Sensor Touch ID</li>
+                            <li class="color-gris-oscuro">Sensor de luz ambiental</li>
+                            <li class="color-gris-claro">Trackpad Force Touch con control preciso del cursor y sensibilidad a la presión. Permite activar el clic fuerte, los aceleradores, el trazo sensible a la presión y los gestos Multi‑Touch</li>
+                            <li class="color-gris-oscuro">Cámara FaceTime HD a 720p</li>
+                            <li class="color-gris-claro">Altavoces estéreo con alto rango dinámico</li>
+                            <li class="color-gris-oscuro">Sonido estéreo amplio</li>
+                            <li class="color-gris-claro">Compatibilidad con audio Dolby Atmos</li>
+                            <li class="color-gris-oscuro">Conjunto de tres micrófonos con calidad de estudio y tecnología beamforming direccional</li>
+                            <li class="color-gris-claro">Toma para auriculares de 3,5 mm</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p><strong>Caja</strong></p>
+                        <p>MacBook Pro de 13 pulgadas</p>
+                        <p>Adaptador de corriente USB‑C de 61 W</p>
+                        <p>Cable de carga USB‑C (2 metros)</p>
+                        <p><strong>Dimensiones y peso</strong></p>
+                        <p>Alto: 1,56 cm</p>
+                        <p>Ancho: 30,41 cm</p>
+                        <p>Fondo: 21,24 cm</p>
+                        <p>Peso: 1,4 kg</p>
+                        <p><strong>Compatibilidad de video</strong></p>
+                        <p>Admite simultáneamente la resolución nativa completa en la pantalla integrada compatible con millones de colores y:</p>
+                        <p>Un monitor externo con una resolución de hasta 6K a 60 Hz Salida de vídeo digital</p>
+                        <p>Thunderbolt 3 Salida DisplayPort nativa a través de USB‑C Salidas VGA, HDMI, DVI y Thunderbolt 2 mediante adaptadores (se venden por separado)</p>
+                        <p><strong>Batería y alimentación</strong></p>
+                        <p>Hasta 17 horas de navegación web inalámbrica</p>
+                        <p>Hasta 20 horas de reproducción de vídeo en la app Apple TV</p>
+                        <p>Batería integrada de polímeros de litio de 58,2 vatios hora</p>
+                        <p>Adaptador de corriente USB‑C de 61 W</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+
+            <section class="fondo-modal-detalles" id="detalles-mac-pro-16">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla de 16 pulgadas (diagonal) retroiluminada por LED con tecnología IPS; resolución nativa de 3072 x 1920 a 226 pixeles por pulgada compatible con millones de colores</li>
+                            <li class="color-gris-oscuro">Brillo de 500 nits</li>
+                            <li class="color-gris-claro">Amplia gama de colores (P3)</li>
+                            <li class="color-gris-oscuro">Tecnología True Tone</li>
+                            <li class="color-gris-claro">Intel Core i7 de 6 núcleos y 2,6 GHz (Turbo Boost de hasta 4,5 GHz) con 12 MB de caché L3 compartida</li>
+                            <li class="color-gris-oscuro">16 GB de memoria DDR4 de 2666 MHz integrada</li>
+                            <li class="color-gris-claro">SSD de 512 GB 1 TB SSD de 1 TB</li>
+                            <li class="color-gris-oscuro">AMD Radeon Pro 5300M con 4 GB de memoria GDDR6 y alternancia automática de gráficos</li>
+                            <li class="color-gris-claro">Cuatro puertos Thunderbolt 3 (USBC)</li>
+                            <li class="color-gris-oscuro">DisplayPort</li>
+                            <li class="color-gris-claro">Thunderbolt (hasta 40 Gbps)</li>
+                            <li class="color-gris-oscuro">USB 3.1 de segunda generación (hasta 10 Gbps)</li>
+                            <li class="color-gris-claro">Teclado retroiluminado de tamaño completo</li>
+                            <li class="color-gris-oscuro">64 (EE.UU.) o 65 (ISO) teclas, incluidas 4 teclas de flecha</li>
+                            <li class="color-gris-claro">Touch Bar con sensor Touch ID integrado</li>
+                            <li class="color-gris-oscuro">Sensor de luz ambiental</li>
+                            <li class="color-gris-claro">Trackpad Force Touch con control preciso del cursor y sensibilidad de presión; cuenta con aceleradores y permite hacer clics fuertes, trazos sensibles a la presión y gestos Multi-Touch</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p><strong>Caja</strong></p>
+                        <p>MacBook Pro de 16 pulgadas</p>
+                        <p>Adaptador de corriente USB C de 96 W</p>
+                        <p>Cable de carga USB C (2 m)</p>
+                        <p><strong>Dimensiones y peso</strong></p>
+                        <p>Grosor: 1.62 cm</p>
+                        <p>Ancho: 35.79 cm</p>
+                        <p>Profundidad: 24.59 cm</p>
+                        <p>Peso: 2 kg</p>
+                        <p><strong>Audio</strong></p>
+                        <p>Parlantes estéreo con un amplio rango dinámico</p>
+                        <p>Tres micrófonos</p>
+                        <p>Entrada de 3,5 mm para audífonos</p>
+                        <p><strong>Batería y energía</strong></p>
+                        <p>Hasta 10 horas de navegación web inalámbrica</p>
+                        <p>Hasta 10 horas de reproducción de películas en iTunes</p>
+                        <p>Hasta 30 días en modo de espera</p>
+                        <p>Batería de polímero de litio de 58,0 Wh integrada</p>
+                        <p>Adaptador de corriente USBC de 61 W</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+            <!-- FIN MODAL DETALLES PRODUCTOS-->
+        </section>
+        <!-- FIN PRODUCTOS -->
+    </div>
+
+    <div class="toast-container"></div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="contenedor">
+                <div class="contenedor-logo">
+                    <a href="../inicio_sitio/index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="links-footer">
+                    <div class="links-istore">
+                        <ul>
+                            <P class="titulo-istore">iStore</P>
+                            <li class="link-istore"><a href="#">¿Quiénes somos?</a></li>
+                            <li class="link-istore"><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-soporte">
+                        <ul>
+                            <P class="titulo-soporte">Soporte</P>
+                            <li class="link-soporte"><a href="#">Preguntas frecuentes</a></li>
+                            <li class="link-soporte"><a href="#">Términos y condiciones</a></li>
+                            <li class="link-soporte"><a href="#">Promociones vigentes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="redes">
+                    <P class="titulo-redes">Redes</P>
+                    <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- FIN FOOTER -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontrá el iPhone X acá en iStore, no dudes en elegirnos, los mejores precios y la mayor seguridad en todas tus compras.">
+	<meta name="keywords" content="Apple, iphone x, iphone xs, iphone xr, iphone, macbook, ipad, ofertas apple, istore">
+    <link  rel="icon" href="../../imagenes/favicon-istore.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <title>iStore | iPhone X</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-iconos">
+                <div class="logo">
+                    <a href="../inicio_sitio/index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="iconos">
+                    <a href="../carrito/carrito.html" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="../carrito/carrito.html"><div class="conteo-carrito"><span>0</span></div></a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#ingresar">Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="#registrarse">Registrarse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVEGADOR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="iphone_12.html">iPhone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../mac/macbook_air.html">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ipad/ipad.html">iPad</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVEGADOR -->
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- MODAL USUARIO -->
+    <section class="fondo-modal-usuario" id="ingresar">
+        <div class="modal-usuario">
+            <p class="titulo-ingresar">Iniciar sesión</p>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Contraseña</label>
+                    <div id="emailHelp" class="form-text"><a href="#">¿Olvidaste tu contraseña?</a></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div class="modal-cerrar"><a href="#">Cerrar</a></div>
+        </div>
+    </section>
+
+    <section class="fondo-modal-usuario" id="registrarse">
+        <div class="modal-usuario">
+            <p class="titulo-registrarse">Registrarse</p>
+            <form>
+                <div class="row nombre-apellido">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#">Términos y
+                            condiciones</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+            <a href="#" class="modal-cerrar">Cerrar</a>
+        </div>
+    </section>
+    <!-- FIN MODAL USUARIO -->
+
+    <!-- LISTA GUIA -->
+    <section class="lista-guia">
+        <div class="contenedor">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../inicio_sitio/index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">iPhone</li>
+                    <li class="breadcrumb-item active" aria-current="page">iPhone X</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- FIN LISTA GUIA -->
+
+    <div class="contenedor contenedor-grid">
+        <!-- FILTRO -->
+        <section class="filtro">
+            <div class="contenedor">
+                <ul>
+                    <li><a href="iphone_12.html">iPhone 12 <span>4</span></a></li>
+                    <li><a href="iphone_11.html">iPhone 11 <span>2</span></a></li>
+                    <li><a href="iphone_X.html"><strong>iPhone X</strong> <span>4</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- FIN FILTRO -->
+
+        <!-- PRODUCTOS -->
+        <section class="productos">
+            <div class="contenedor titulo-producto">
+                <h2>iPhone X</h2>
+            </div>
+            <div class="contenedor-grid-productos-iphone-X">
+                <article class="item-producto-uno">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/iphone/iphone-x.png" alt="iphone x gris">
+                    </div>
+                    <p class="nombre-producto">iPhone X</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$144.999</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$8.055</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-iphonex" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('iphonex')">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="item-producto-dos">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/iphone/iphone-xr.png" alt="iphone xr dorado">
+                    </div>
+                    <p class="nombre-producto">iPhone XR</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$158.990</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$8.832</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-iphonexr" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('iphonexr')">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="item-producto-tres">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/iphone/iphone-xs.png" alt="iphone xs oro">
+                    </div>
+                    <p class="nombre-producto">iPhone XS</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$160.000</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$8.888</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-iphonexs" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('iphonexs')">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="item-producto-cuatro">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/iphone/iphone-xs-max.png" alt="iphone xs max plata">
+                    </div>
+                    <p class="nombre-producto">iPhone XS Max</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$150.000</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$8.333</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-iphonexs-max" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('iphonexs-max')">Comprar</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- MODAL DETALLES PRODUCTOS-->
+            <section class="fondo-modal-detalles" id="detalles-iphonex">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Chip A11 Bionic con arquitectura de 64 bits, Procesador neural,
+                                coprocesador de movimiento M11 integrado</li>
+                            <li class="color-gris-oscuro">Cámaras de 12 MP con gran angular y teleobjetivo. Gran
+                                angular: apertura de ƒ/1.8. Teleobjetivo: apertura de ƒ/2.4</li>
+                            <li class="color-gris-claro">Zoom óptico; zoom digital de hasta 10x</li>
+                            <li class="color-gris-oscuro">Flash Quad-LED True Tone con sincronización lenta. Fotos
+                                panorámicas (hasta 63 MP)</li>
+                            <li class="color-gris-claro">Enfoque con un toque con Focus Pixels</li>
+                            <li class="color-gris-oscuro">Cámara FaceTime HD Reconocimiento facial por medio de la
+                                cámara TrueDepth)</li>
+                            <li class="color-gris-claro">Pantalla Retina HD con 3D Touch</li>
+                            <li class="color-gris-oscuro">Cámara TrueDepth Cámara de 7 MP</li>
+                            <li class="color-gris-claro">Grabación de video HD de 1080p</li>
+                            <li class="color-gris-oscuro">Amplia gama de colores en fotos y Live Photos</li>
+                            <li class="color-gris-claro">Siri: Usa tu voz para enviar mensajes, programar recordatorios
+                                y mucho más. Actívalo con sólo decir “Oye Siri”. Escucha e identifica canciones</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p><strong>Caja</strong></p>
+                        <p>iPhone con iOS 11, EarPods con conector Lightning, Adaptador de Lightning a entrada de 3.5 mm
+                            para audífonos, Cable de Lightning a USB, Adaptador de corriente USB, Documentación</p>
+                        <p><strong>Capacidad</strong></p>
+                        <p>64 y 256 GB</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+
+            <section class="fondo-modal-detalles" id="detalles-iphonexr">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla True Tone. Pantalla con
+                                amplia gama de colores (P3). Brillo máximo de 625 cd/m2 (normal). Clasificación IP68
+                                (profundidad máxima de 1 metro hasta 30 minutos) según la norma IEC 60529</li>
+                            <li class="color-gris-oscuro">Chip A12 Bionic Neural Engine de
+                                última generación</li>
+                            <li class="color-gris-claro">64 GB, 128 GB y 256 GB</li>
+                            <li class="color-gris-oscuro">Ubicación
+                                GPS asistido, GLONASS, Galileo y QZSS, Brújula digital, Wifi, microlocalización iBeacon
+                            </li>
+                            <li class="color-gris-claro">Cámaras de 12 MP con gran angular
+                                Apertura de ƒ/1.8. Zoom digital de hasta 5x</li>
+                            <li class="color-gris-oscuro">Flash Quad-LED True Tone con
+                                sincronización lenta Fotos panorámicas (hasta 63 MP)</li>
+                            <li class="color-gris-claro">Cámara TrueDepth Cámara de 7 MP
+                                Modo Retrato con bokeh avanzado y control de profundidad</li>
+                            <li class="color-gris-oscuro">Grabación de video HD de 1080p a
+                                30 fps o 60 fps</li>
+                            <li class="color-gris-claro">Estabilización de video cinemático
+                                (1080p y 720p)</li>
+                            <li class="color-gris-oscuro">Zoom digital de hasta 5x</li>
+                            <li class="color-gris-claro">Siri: Usa tu voz para enviar
+                                mensajes, programar recordatorios y mucho más. Actívalo con sólo decir “Oye Siri”.
+                                Escucha e identifica canciones</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p>
+                            El iPhone XR tiene el LCD más avanzado en un smartphone: una pantalla Liquid Retina de 6,1
+                            pulgadas con la mayor precisión de color de la industria y un innovador diseño
+                            retroiluminado que lleva esta increíble pantalla hasta las esquinas. 1 El avanzado sistema
+                            Face ID te permite desbloquear tu iPhone e iniciar sesión en apps de forma segura con sólo
+                            una mirada. El chip A12 Bionic con el Neural Engine de última generación usa el aprendizaje
+                            automático en tiempo real para llevar aún más allá todo lo que puedes hacer con tus fotos,
+                            juegos, realidad aumentada y más. El revolucionario sistema de cámara de 12 MP viene con
+                            modo Retrato, Iluminación de Retrato, bokeh mejorado y el nuevo Control de Profundidad. Es
+                            resistente al agua y está disponible en seis novedosos acabados. 2 Además, viene con iOS 12,
+                            el sistema operativo móvil más avanzado del mundo, que incluye nuevas herramientas para que
+                            tu iPhone sea más personal que nunca. </p>
+                        <p>1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la
+                            pantalla del iPhone XR tiene 6,06 pulgadas en diagonal. El área real de visualización es
+                            menor.</p>
+                        <p>2) El iPhone XR es resistente a las salpicaduras, al agua y al polvo, y fue probado en
+                            condiciones de laboratorio controladas, con una clasificación IP67 según la norma IEC 60529
+                            (hasta 30 minutos a una profundidad máxima de 1 metro). La resistencia a las salpicaduras,
+                            al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del
+                            uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las
+                            instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.</p>
+                        <p>3) Los cargadores inalámbricos Qi se venden por separado.</p>
+                        <p>4) FaceTime en Grupo estará disponible próximamente en iOS 12 mediante una actualización de
+                            software.</p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPhone con iOS 12, EarPods con conector Lightning, Adaptador de corriente a USB, Cable de
+                            Lightning a USB, Batería de iones de litio recargable incorporada, Documentación</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+
+            <section class="fondo-modal-detalles" id="detalles-iphonexs">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla 3D Touch Resistente a salpicaduras, agua y polvo.
+                                Pantalla Retina HD con sensor de huellas digitales Touch ID</li>
+                            <li class="color-gris-oscuro">Chip A12 Bionic Next-generation Neural Engine</li>
+                            <li class="color-gris-claro">64 GB, 256 GB y 512 GB</li>
+                            <li class="color-gris-oscuro">Ubicación GPS asistido, GLONASS, Galileo y QZSS, Brújula
+                                digital, Wifi, microlocalización iBeacon</li>
+                            <li class="color-gris-claro">Cámaras de 12 MP con gran angular y teleobjetivo Gran angular:
+                                apertura de ƒ/1.8 Teleobjetivo: apertura de ƒ/2.4</li>
+                            <li class="color-gris-oscuro">Flash Quad-LED True Tone con sincronización lenta Fotos
+                                panorámicas (hasta 63 MP)</li>
+                            <li class="color-gris-claro">Cámara TrueDepth Cámara de 7 MP Modo Retrato con bokeh avanzado
+                                y control de profundidad</li>
+                            <li class="color-gris-oscuro">Sensor de iluminación posterior. Detección de cuerpos y caras.
+                                Estabilización automática de imagen</li>
+                            <li class="color-gris-claro">Mapeo de tonos localizado mejorado Detección de cuerpos y caras
+                            </li>
+                            <li class="color-gris-oscuro">Zoom óptico 2x; zoom digital de hasta 10x</li>
+                            <li class="color-gris-claro">Siri: Usa tu voz para enviar mensajes, programar recordatorios
+                                y mucho más. Actívalo con sólo decir “Oye Siri”. Escucha e identifica canciones</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p>
+                            El iPhone XS tiene una pantalla Super Retina de 5,8 pulgadas con paneles OLED hechos a la
+                            medida para ofrecer un HDR con la mayor precisión de color de toda la industria, negros
+                            intensos y un brillo increíble. 1 El avanzado sistema Face ID te permite desbloquear tu
+                            iPhone e iniciar sesión en apps de forma segura con sólo una mirada. El chip A12 Bionic con
+                            el Neural Engine de última generación usa el aprendizaje automático en tiempo real para
+                            llevar aún más allá todo lo que puedes hacer con tus fotos, juegos, realidad aumentada y
+                            más. El revolucionario sistema de cámara dual de 12 MP te permite tomar retratos como un
+                            profesional gracias al modo Retrato, los efectos de Iluminación de Retrato, el bokeh
+                            mejorado y el nuevo Control de Profundidad. Además, es resistente al agua. 2 Y viene con iOS
+                            12, el sistema operativo móvil más avanzado del mundo, que incluye nuevas herramientas para
+                            que tu iPhone sea más personal que nunca. </p>
+                        <p>1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla
+                            del iPhone XS tiene 5,85 pulgadas en diagonal. El área real de visualización es menor.</p>
+                        <p>2) El iPhone XS es resistente a las salpicaduras, al agua y al polvo, y fue probado en
+                            condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529
+                            (hasta 30 minutos a una profundidad máxima de 2 metros). La resistencia a las salpicaduras,
+                            al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del
+                            uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las
+                            instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.</p>
+                        <p>3) Los cargadores inalámbricos Qi se venden por separado.</p>
+                        <p>4) FaceTime en Grupo estará disponible próximamente en iOS 12 mediante una actualización de
+                            software.</p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPhone XScon iOS 12, EarPods con conector Lightning, Cable de Lightning a USB, Carga vía USB
+                            al sistema informático o adaptador de corriente ,Batería de iones de litio recargable
+                            incorporada, Documentación</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+
+            <section class="fondo-modal-detalles" id="detalles-iphonexs-max">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla 3D Touch Resistente a salpicaduras, agua y polvo.
+                                Pantalla Retina HD con sensor de huellas digitales Touch ID</li>
+                            <li class="color-gris-oscuro">Chip A12 Bionic Next-generation Neural Engine</li>
+                            <li class="color-gris-claro">64 GB, 256 GB y 512 GB</li>
+                            <li class="color-gris-oscuro">Ubicación GPS asistido, GLONASS, Galileo y QZSS, Brújula
+                                digital, Wifi, Celular</li>
+                            <li class="color-gris-claro">Cámaras de 12 MP con gran angular y teleobjetivo Gran angular:
+                                apertura de ƒ/1.8 Teleobjetivo: apertura de ƒ/2.4</li>
+                            <li class="color-gris-oscuro">Flash Quad-LED True Tone con sincronización lenta Fotos
+                                panorámicas (hasta 63 MP)</li>
+                            <li class="color-gris-claro">Cámara TrueDepth Cámara de 7 MP Modo Retrato con bokeh avanzado
+                                y control de profundidad</li>
+                            <li class="color-gris-oscuro">Sensor de iluminación posterior. Detección de cuerpos y caras.
+                                Estabilización automática de imagen</li>
+                            <li class="color-gris-claro">Mapeo de tonos localizado mejorado Detección de cuerpos y caras
+                            </li>
+                            <li class="color-gris-oscuro">Zoom óptico 2x; zoom digital de hasta 10x</li>
+                            <li class="color-gris-claro">Siri: Usa tu voz para enviar mensajes, programar recordatorios
+                                y mucho más. Actívalo con sólo decir “Oye Siri”. Escucha e identifica canciones</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p>
+                            El iPhone XS Max tiene una pantalla Super Retina de 6,5 pulgadas con paneles OLED hechos a medida para ofrecer un HDR con la mayor precisión de color de toda la industria, negros intensos y un brillo increíble. 1 El avanzado sistema Face ID te permite desbloquear tu iPhone e iniciar sesión en apps de forma segura con sólo una mirada. El chip A12 Bionic con el Neural Engine de última generación usa el aprendizaje automático en tiempo real para llevar aún más allá todo lo que puedes hacer con tus fotos, juegos, realidad aumentada y más. El revolucionario sistema de cámara dual de 12 MP te permite tomar retratos como un profesional gracias al modo Retrato, los efectos de Iluminación de Retrato, el bokeh mejorado y el nuevo Control de Profundidad. Además, es resistente al agua. 2 Y viene con iOS 12, el sistema operativo móvil más avanzado del mundo, que incluye nuevas herramientas para que tu iPhone sea más personal que nunca. </p>
+                        <p>1) La pantalla tiene las esquinas redondeadas. Si se mide en forma de rectángulo, la pantalla del iPhone XS Max tiene 6,46 pulgadas en diagonal. El área real de visualización es menor.</p>
+                        <p>2) El iPhone XS Max es resistente a las salpicaduras, al agua y al polvo, y fue probado en condiciones de laboratorio controladas, con una clasificación IP68 según la norma IEC 60529 (hasta 30 minutos a una profundidad máxima de 2 metros). La resistencia a las salpicaduras, al agua y al polvo no es una condición permanente, y podría disminuir como consecuencia del uso normal. No intentes cargar un iPhone mojado; consulta el manual del usuario para ver las instrucciones de limpieza y secado. La garantía no cubre daños producidos por líquidos.</p>
+                        <p>3) Los cargadores inalámbricos Qi se venden por separado.</p>
+                        <p>4) FaceTime en Grupo estará disponible próximamente en iOS 12 mediante una actualización de software.</p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPhone XS Max con iOS 12, EarPods con conector Lightning, Cable de Lightning a USB, Cargador, Documentación</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+            <!-- FIN MODAL DETALLES PRODUCTOS-->
+        </section>
+        <!-- FIN PRODUCTOS -->
+    </div>
+
+    <div class="toast-container"></div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+            <div class="contenedor-logo">
+                <a href="../inicio_sitio/index.html">
+                    <img src="../../imagenes/logo.png" alt="logo iStore">
+                </a>
+            </div>
+            <div class="links-footer">
+                <div class="links-istore">
+                    <ul>
+                        <P class="titulo-istore">iStore</P>
+                        <li class="link-istore"><a href="#">¿Quiénes somos?</a></li>
+                        <li class="link-istore"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="links-soporte">
+                    <ul>
+                        <P class="titulo-soporte">Soporte</P>
+                        <li class="link-soporte"><a href="#">Preguntas frecuentes</a></li>
+                        <li class="link-soporte"><a href="#">Términos y condiciones</a></li>
+                        <li class="link-soporte"><a href="#">Promociones vigentes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="redes">
+                <P class="titulo-redes">Redes</P>
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

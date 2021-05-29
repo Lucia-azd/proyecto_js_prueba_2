@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontrá la más alta calidad en tecnología de productos Apple, iStore te ofrece los mejores productos, las mejores ofertas y la mejor seguridad en todas tus compras, no dudes en elegirnos.">
+	<meta name="keywords" content="Apple, iphone, macbook, ipad, ofertas apple, istore">
+    <link  rel="icon" href="imagenes/favicon-istore.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../css/estilo.css" />
+    <title>iStore</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-iconos">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="iconos">
+                    <a href="../carrito/carrito.html" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="../carrito/carrito.html"><div class="conteo-carrito"><span></span></div></a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#ingresar">Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="#registrarse">Registrarse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVEGADOR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../iphone/iphone_12.html">iPhone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../mac/macbook_air.html">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ipad/ipad.html">iPad</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVEGADOR -->
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- MODAL USUARIO -->
+    <section class="fondo-modal-usuario" id="ingresar">
+        <div class="modal-usuario">
+            <p class="titulo-ingresar">Iniciar sesión</p>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Contraseña</label>
+                    <div id="emailHelp" class="form-text"><a href="#">¿Olvidaste tu contraseña?</a></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div class="modal-cerrar"><a href="#">Cerrar</a></div>
+        </div>
+    </section>
+
+    <section class="fondo-modal-usuario" id="registrarse">
+        <div class="modal-usuario">
+            <p class="titulo-registrarse">Registrarse</p>
+            <form>
+                <div class="row nombre-apellido">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#">Términos y
+                            condiciones</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+            <a href="#" class="modal-cerrar">Cerrar</a>
+        </div>
+    </section>
+    <!-- FIN MODAL USUARIO -->
+
+    <!-- CAROUSEL -->
+    <section class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"></li>
+                <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="../iphone/iphone_X.html"><img src="../../imagenes/banners/banner-iphone-xs.png" class="d-block w-100" alt="banner iphone xs" /></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="../mac/macbook_pro.html"><img src="../../imagenes/banners/banner-macpro.png" class="d-block w-100" alt="banner macbook pro" /></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="../iphone/iphone_X.html"><img src="../../imagenes/banners/banner-iphone-xr.png" class="d-block w-100" alt="banner iphone xr" /></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="../iphone/iphone_12.html"><img src="../../imagenes/banners/banner-iphone-12.png" class="d-block w-100" alt="banner iphone 12" /></a>
+                </div>
+                <div class="carousel-item">
+                    <a href="../ipad/ipad_air.html"><img src="../../imagenes/banners/banner-ipad-air.png" class="d-block w-100" alt="banner ipad air" /></a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- FIN CAROUSEL -->
+
+    <!-- SECCIÓN: LO MÁS VENDIDO -->
+    <section class="mas-vendido">
+        <div class="contenedor">
+            <p class="titulo-mas-vendido">Lo más vendido</p>
+        </div>
+        <div class="contenedor">
+            <article class="item">
+                <div class="contenedor-img iphone">
+                    <img src="../../imagenes/iphone/iphone-12.jpg" alt="iphone 12 azul">
+                </div>
+                <div class="descripcion">
+                    <p class="nombre-producto-mas-vendido">iPhone 12</p>
+                    <p><span class="precio-tachado">$263.000</span> <span class="descuento"><strong>20% OFF</strong></span></p>
+                    <p class="precio">$210.400</p>
+                    <p class="cuotas">Hasta <strong>18 cuotas sin interés</strong> de $11.688</p>
+                </div>
+                <a href="../iphone/iphone_12.html" class="boton-comprar">Comprar</a>
+            </article>
+            <article class="item">
+                <div class="contenedor-img mac">
+                    <img src="../../imagenes/mac/macbook-air-13.jpg" alt="macbook air 13 pulgadas gris">
+                </div>
+                <div class="descripcion">
+                    <p class="nombre-producto-mas-vendido">Macbook Air</p>
+                    <p><span class="precio-tachado">$199.999</span> <span class="descuento"><strong>20% OFF</strong></span></p>
+                    <p class="precio">$159.999</p>
+                    <p class="cuotas">Hasta <strong>18 cuotas sin interés</strong> de $8.888</p>
+                </div>
+                <a href="../mac/macbook_air.html" class="boton-comprar">Comprar</a>
+            </article>
+            <article class="item">
+                <div class="contenedor-img ipad">
+                    <img src="../../imagenes/ipad/ipad-7.jpg" alt="ipad 7th gris">
+                </div>
+                <div class="descripcion">
+                    <p class="nombre-producto-mas-vendido">iPad</p>
+                    <p><span class="precio-tachado">$55.990</span> <span class="descuento"><strong>20% OFF</strong></span></p>
+                    <p class="precio">$44.792</p>
+                    <p class="cuotas">Hasta <strong>18 cuotas sin interés</strong> de $2.488</p>
+                </div>
+                <a href="../ipad/ipad.html" class="boton-comprar">Comprar</a>
+            </article>
+        </div>
+    </section>
+    <!-- FIN SECCIÓN: LO MÁS VENDIDO -->
+
+    <!-- SECCIÓN: POR QUE ELEGIRNOS -->
+    <section class="elegirnos">
+        <div class="contenedor">
+            <p class="titulo-elegirnos">¿Por qué elegirnos?</p>
+
+            <article class="item-uno">
+                <i class="fas fa-hand-holding-usd icono"></i>
+                <div class="descripcion">
+                    <p>Aceptamos cambios y devoluciones</p>
+                </div>
+            </article>
+            <article class="item-dos">
+                <i class="fas fa-shipping-fast icono"></i>
+                <div class="descripcion">
+                    <p>Envíos a todo el país ¡sin salir de casa!</p>
+                </div>
+            </article>
+            <article class="item-tres">
+                <i class="fab fa-creative-commons-nc icono"></i>
+                <div class="descripcion">
+                    <p>Compras mayores a $200.000 el envío es completamente gratis</p>
+                </div>
+            </article>
+            <article class="item-cuatro">
+                <i class="fas fa-headset icono"></i>
+                <div class="descripcion">
+                    <p>Atención al cliente 24hs</p>
+                </div>
+            </article>
+            <article class="item-cinco">
+                <i class="fas fa-user-lock icono"></i>
+                <div class="descripcion">
+                    <p>Compras 100% seguras</p>
+                </div>
+            </article>
+        </div>
+    </section>
+    <!-- FIN SECCIÓN: POR QUE ELEGIRNOS -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+            <div class="contenedor-logo">
+                <a href="index.html"><img src="../../imagenes/logo.png" alt="logo iStore"></a>
+            </div>
+            <div class="links-footer">
+                <div class="links-istore">
+                    <ul>
+                        <P class="titulo-istore">iStore</P>
+                        <li class="link-istore"><a href="#">¿Quiénes somos?</a></li>
+                        <li class="link-istore"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="links-soporte">
+                    <ul>
+                        <P class="titulo-soporte">Soporte</P>
+                        <li class="link-soporte"><a href="#">Preguntas frecuentes</a></li>
+                        <li class="link-soporte"><a href="#">Términos y condiciones</a></li>
+                        <li class="link-soporte"><a href="#">Promociones vigentes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="redes">
+                <P class="titulo-redes">Redes</P>
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/script.js"></script>
+    <script src="../../js/carrito.js"></script>
+</body>
+</html>

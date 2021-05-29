@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontrá el iPhone 11 acá en iStore, no dudes en elegirnos, los mejores precios y la mayor seguridad en todas tus compras.">
+	<meta name="keywords" content="Apple, iphone 11, iphone, macbook, ipad, ofertas apple, istore">
+    <link  rel="icon" href="../../imagenes/favicon-istore.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <title>iStore | iPhone 11</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-iconos">
+                <div class="logo">
+                    <a href="../inicio_sitio/index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="iconos">
+                    <a href="#" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="../carrito/carrito.html"><div class="conteo-carrito"><span>0</span></div></a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#ingresar">Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="#registrarse">Registrarse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVEGADOR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="iphone_12.html">iPhone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../mac/macbook_air.html">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../ipad/ipad.html">iPad</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVEGADOR -->
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- MODAL USUARIO -->
+    <section class="fondo-modal-usuario" id="ingresar">
+        <div class="modal-usuario">
+            <p class="titulo-ingresar">Iniciar sesión</p>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Contraseña</label>
+                    <div id="emailHelp" class="form-text"><a href="#">¿Olvidaste tu contraseña?</a></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div class="modal-cerrar"><a href="#">Cerrar</a></div>
+        </div>
+    </section>
+
+    <section class="fondo-modal-usuario" id="registrarse">
+        <div class="modal-usuario">
+            <p class="titulo-registrarse">Registrarse</p>
+            <form>
+                <div class="row nombre-apellido">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#">Términos y
+                            condiciones</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+            <a href="#" class="modal-cerrar">Cerrar</a>
+        </div>
+    </section>
+    <!-- FIN MODAL USUARIO -->
+
+    <!-- LISTA GUIA -->
+    <section class="lista-guia">
+        <div class="contenedor">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="../inicio_sitio/index.html">Inicio</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">iPhone</li>
+                    <li class="breadcrumb-item active" aria-current="page">iPhone 11</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- FIN LISTA GUIA -->
+
+    <div class="contenedor contenedor-grid">
+        <!-- FILTRO -->
+        <section class="filtro">
+            <div class="contenedor">
+                <ul>
+                    <li><a href="iphone_12.html">iPhone 12 <span>4</span></a></li>
+                    <li><a href="iphone_11.html"><strong>iPhone 11</strong> <span>2</span></a></li>
+                    <li><a href="iphone_X.html">iPhone X <span>4</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- FIN FILTRO -->
+
+        <!-- PRODUCTOS -->
+        <section class="productos">
+            <div class="contenedor titulo-producto">
+                <h2>iPhone 11</h2>
+            </div>
+            <div class="contenedor-grid-productos-iphone-11">
+                <article class="item-producto-uno">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/iphone/iphone-11.jpg" alt="iphone 11 blanco">
+                    </div>
+                    <p class="nombre-producto">iPhone 11</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$159.795</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$8.877</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-iphone11" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('iphone11')">Comprar</button>
+                    </div>
+                </article>
+
+                <article class="item-producto-dos">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/iphone/iphone-11-pro.jpg" alt="iphone 11 pro gris">
+                    </div>
+                    <p class="nombre-producto">iPhone 11 Pro</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$229.390</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$12.743</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-iphone11-pro" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('iphone11-pro')">Comprar</button>
+                    </div>
+                </article>
+            </div>
+
+            <!-- MODAL DETALLES PRODUCTOS-->
+            <section class="fondo-modal-detalles" id="detalles-iphone11">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla Liquid Retina HD. Pantalla LCD Multi-Touch de 6,1
+                                pulgadas (diagonal) sin marco y con tecnología IPS. Resolución de 1792 x 828 pixeles a
+                                326 ppi</li>
+                            <li class="color-gris-oscuro">Pantalla con amplia gama de colores (P3). Toque con respuesta
+                                háptica. Brillo máximo de 625 nits (normal). Revestimiento oleofóbico resistente a
+                                huellas dactilares</li>
+                            <li class="color-gris-claro">Chip A13 Bionic Neural Engine de tercera generación</li>
+                            <li class="color-gris-oscuro">64 GB, 128 GB y 256 GB</li>
+                            <li class="color-gris-claro">Sistema de dos cámaras de 12 MP: ultra gran angular y gran
+                                angular. Ultra gran angular: apertura de ƒ/2.4 y ángulo de visión de 120°. Gran angular:
+                                apertura de ƒ/1.8</li>
+                            <li class="color-gris-oscuro">Zoom óptico de 2x para alejar; zoom digital de hasta 5x</li>
+                            <li class="color-gris-claro">Cámara Truedepth Cámara de 12 MP. Apertura de ƒ/2.2</li>
+                            <li class="color-gris-oscuro">Iluminación de Retrato con seis efectos (Luz Natural, Luz de
+                                Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta B y N)</li>
+                            <li class="color-gris-claro">Grabación de video 4K a 24 cps, 30 cps o 60 cps</li>
+                            <li class="color-gris-oscuro">Toma fotos de 8 MP mientras graba videos 4K</li>
+                            <li class="color-gris-claro">Batería y energía Reproducción de video: Hasta 17 horas</li>
+                            <li class="color-gris-oscuro">Reproducción de video (streaming): Hasta 10 horas</li>
+                            <li class="color-gris-claro">Reproducción de audio: Hasta 65 horas</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p>
+                            <strong>
+                                *Como parte de los esfuerzos de Apple por reducir el impacto ambiental, el iPhone 11 no
+                                incluye adaptador de corriente ni EarPods. Puedes usar el adaptador de corriente de
+                                Apple y
+                                los audífonos que ya tengas o comprarlos por separado.*
+                            </strong>
+                        </p>
+                        <p>
+                            La pantalla del iPhone 11 tiene esquinas redondeadas que siguen el elegante diseño curvo del
+                            teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma
+                            de rectángulo estándar, la pantalla tiene 6,06 pulgadas en diagonal (el área real de
+                            visualización es menor).
+                        </p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPhone 11 con iOS 13, Cable de USB-C a Lightning, Documentación</p>
+                        <p><strong>Funcionalidades incluidas:</strong></p>
+                        <p>VoiceOver, Zoom, Lupa, Dictado, Control por Botón, Subtítulos opcionales, AssistiveTouch, Leer Pantalla en Voz Alta</p>
+                        <p><strong>Accesibilidad</strong></p>
+                        <p>Las funcionalidades de accesibilidad ayudan a las personas con alguna discapacidad a aprovechar al máximo su nuevo iPhone 11. Gracias al soporte integrado para visión, audición, motricidad y aprendizaje, puedes disfrutar como nunca el dispositivo más personal del mundo. Más información Reproducción de audio</p>
+                        <p><strong>Formatos de audio compatibles:</strong></p>
+                        <p>AAC‑LC, HE‑AAC, HE‑AAC v2, AAC protegido, MP3, PCM lineal, Apple Lossless, FLAC, Dolby Digital (AC-3), Dolby Digital Plus (E‑AC‑3), Dolby Atmos y Audible (formatos 2, 3, 4, Audible Enhanced Audio, AAX y AAX+) Reproducción de audio espacial Volumen máximo configurable por el usuario</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+
+            <section class="fondo-modal-detalles" id="detalles-iphone11-pro">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla Super Retina XDR Pantalla OLED Multi-Touch de 5,8 pulgadas (diagonal) sin marco. Pantalla HDR Resolución de 2436 x 1125 pixeles a 458 ppi</li>
+                            <li class="color-gris-oscuro">Pantalla con una amplia gama de colores (P3). Toque con respuesta háptica Brillo máximo de 800 nits (normal); brillo máximo de 1200 nits (HDR). Revestimiento oleofóbico resistente a huellas dactilares</li>
+                            <li class="color-gris-claro">Chip A13 Bionic Neural Engine de tercera generación</li>
+                            <li class="color-gris-oscuro">64 GB, 256 GB y 512 GB</li>
+                            <li class="color-gris-claro">Sistema de tres cámaras de 12 MP: ultra gran angular, gran angular y teleobjetivo. Ultra gran angular: apertura de ƒ/2.4 y ángulo de visión de 120°</li>
+                            <li class="color-gris-oscuro">Zoom óptico de 2x para acercar, zoom óptico de 2x para alejar; zoom digital de hasta 10x</li>
+                            <li class="color-gris-claro">Iluminación de Retrato con seis efectos (Luz Natural, Luz de Estudio Fotográfico, Luz al Contorno, Reflector, Reflector B y N, Clave Alta B y N)</li>
+                            <li class="color-gris-oscuro">Lente de cinco elementos (cámara ultra gran angular); lente de seis elementos (cámaras gran angular y teleobjetivo)</li>
+                            <li class="color-gris-claro">Cámara Truedepth Camara de 12 MP. Apertura de ƒ/2.2</li>
+                            <li class="color-gris-oscuro">Rango dinamico extendido para grabación de video a 30 cps. Estabilización cinemática de video (4K, 1080p y 720p)</li>
+                            <li class="color-gris-claro">Batería y energía Reproducción de video: Hasta 18 horas</li>
+                            <li class="color-gris-oscuro">Reproducción de video (streaming): Hasta 11 horas</li>
+                            <li class="color-gris-claro">Reproducción de audio: Hasta 65 horas</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p>La pantalla del iPhone 11 Pro tiene esquinas redondeadas que siguen el elegante diseño curvo del teléfono, y las esquinas se encuentran dentro de un rectángulo estándar. Si se mide en forma de rectángulo estándar, la pantalla tiene 5,85 pulgadas en diagonal (el área real de visualización es menor).</p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPhone 11 Pro con iOS 13, EarPods con conector Lightning, Cable de USB-C a Lightning, Adaptador de corriente USB-C de 18 W, Documentación</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+            <!-- FIN MODAL DETALLES PRODUCTOS-->
+        </section>
+        <!-- FIN PRODUCTOS -->
+    </div>
+
+    <div class="toast-container"></div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="contenedor">
+            <div class="contenedor-logo">
+                <a href="../inicio_sitio/index.html">
+                    <img src="../../imagenes/logo.png" alt="logo iStore">
+                </a>
+            </div>
+            <div class="links-footer">
+                <div class="links-istore">
+                    <ul>
+                        <P class="titulo-istore">iStore</P>
+                        <li class="link-istore"><a href="#">¿Quiénes somos?</a></li>
+                        <li class="link-istore"><a href="#">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="links-soporte">
+                    <ul>
+                        <P class="titulo-soporte">Soporte</P>
+                        <li class="link-soporte"><a href="#">Preguntas frecuentes</a></li>
+                        <li class="link-soporte"><a href="#">Términos y condiciones</a></li>
+                        <li class="link-soporte"><a href="#">Promociones vigentes</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="redes">
+                <P class="titulo-redes">Redes</P>
+                <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+    <!-- FIN FOOTER -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+        integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>

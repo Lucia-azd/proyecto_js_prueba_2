@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Encontrá el iPad acá en iStore, no dudes en elegirnos, los mejores precios y la mayor seguridad en todas tus compras.">
+	<meta name="keywords" content="Apple, iphone, macbook, ipad, ofertas apple, istore">
+    <link  rel="icon" href="../../imagenes/favicon-istore.png" type="image/png" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <title>iStore | iPad</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="contenedor">
+            <div class="contenedor-logo-iconos">
+                <div class="logo">
+                    <a href="../inicio_sitio/index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="iconos">
+                    <a href="#" class="carrito"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="../carrito/carrito.html"><div class="conteo-carrito"><span>0</span></div></a>
+                    <div class="dropdown">
+                        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="far fa-user-circle"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#ingresar">Iniciar sesión</a></li>
+                            <li><a class="dropdown-item" href="#registrarse">Registrarse</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVEGADOR -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse nav" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../iphone/iphone_12.html">iPhone</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../mac/macbook_air.html">Mac</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ipad.html">iPad</a>
+                        </li>
+                        <li class="nav-item"><div class="dropdown">
+                            
+                        </li>
+                    </ul> 
+                </div>
+            </div>
+        </nav>
+        <!-- FIN NAVEGADOR -->
+    </header>
+    <!-- FIN HEADER -->
+
+    <!-- MODAL USUARIO -->
+    <section class="fondo-modal-usuario" id="ingresar">
+        <div class="modal-usuario">
+            <p class="titulo-ingresar">Iniciar sesión</p>
+            <form>
+                <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                    <label for="floatingInput">Email</label>
+                </div>
+                <div class="form-floating">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" required>
+                    <label for="floatingPassword">Contraseña</label>
+                    <div id="emailHelp" class="form-text"><a href="#">¿Olvidaste tu contraseña?</a></div>
+                </div>
+                <button type="submit" class="btn btn-primary">Ingresar</button>
+            </form>
+            <div class="modal-cerrar"><a href="#">Cerrar</a></div>
+        </div>
+    </section>
+
+    <section class="fondo-modal-usuario" id="registrarse">
+        <div class="modal-usuario">
+            <p class="titulo-registrarse">Registrarse</p>
+            <form>
+                <div class="row nombre-apellido">
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Nombre" aria-label="First name" required>
+                    </div>
+                    <div class="col">
+                        <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" required>
+                </div>
+                <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                    <label class="form-check-label" for="exampleCheck1">Acepto los <a href="#">Términos y condiciones</a></label>
+                </div>
+                <button type="submit" class="btn btn-primary">Registrarse</button>
+            </form>
+            <a href="#" class="modal-cerrar">Cerrar</a>
+        </div>
+    </section>
+    <!-- FIN MODAL USUARIO -->
+
+    <!-- LISTA GUIA -->
+    <section class="lista-guia">
+        <div class="contenedor">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="../inicio_sitio/index.html">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">iPad</li>
+                <li class="breadcrumb-item active" aria-current="page">iPad</li>
+                </ol>
+            </nav>
+        </div>
+    </section>
+    <!-- FIN LISTA GUIA -->
+
+    <div class="contenedor contenedor-grid">
+        <!-- FILTRO -->
+        <section class="filtro">
+            <div class="contenedor">
+                <ul>
+                    <li><a href="ipad.html"><strong>iPad</strong> <span>2</span></a> </li>
+                    <li><a href="ipad_air.html">iPad Air <span>2</span></a></li>
+                    <li><a href="ipad_pro.html">iPad Pro <span>3</span></a></li>
+                </ul>
+            </div>
+        </section>
+        <!-- FIN FILTRO -->
+
+        <!-- PRODUCTOS -->
+        <section class="productos">
+            <div class="contenedor titulo-producto"> 
+                <h2>iPad</h2> 
+            </div>
+            <div class="contenedor-grid-productos-ipad">
+                <article class="item-producto-uno">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/ipad/ipad-8.jpg" alt="ipad 8th rosa">
+                    </div>
+                    <p class="nombre-producto">iPad 8th</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$72.390</strong></p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$4.021</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-ipad-8th" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('ipad8th')">Comprar</button>
+                    </div>  
+                </article>
+
+                <article class="item-producto-dos">
+                    <div class="contenedor-img-producto">
+                        <img src="../../imagenes/ipad/ipad-7.jpg" alt="ipad 7th gris">
+                    </div>
+                    <p class="nombre-producto">iPad 7th</p>
+                    <div class="descripcion-producto">
+                        <p class="titulo-precio">Precio</p>
+                        <p class="precio"><strong>$44.792</strong>
+                            <span class="precio-tachado">$55.990</span> <span class="descuento"><strong>20% OFF</strong></span>
+                        </p>
+                        <p class="titulo-cuotas">18 cuotas mensuales</p>
+                        <p class="cuotas"><strong>$2.488</strong></p>
+                    </div>
+                    <div class="contenedor-botones">
+                        <a href="#detalles-ipad-7th" class="boton-detalles">Ver detalles</a>
+                        <button class="boton-comprar" onclick="obtenerProducto('ipad7th')">Comprar</button>
+                    </div>  
+                </article>
+            </div>
+
+            <!-- MODAL DETALLES PRODUCTOS-->
+            <section class="fondo-modal-detalles" id="detalles-ipad-8th">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla Multi‑Touch de 10,2 pulgadas (diagonal) retroiluminada por LED con tecnología IPS</li>
+                            <li class="color-gris-oscuro">Resolución de 2160 x 1620 a 264 ppi, brillo máximo de 500 nits (normal). Revestimiento oleofóbico resistente a huellas dactilares</li>
+                            <li class="color-gris-claro">Chip Apple A12 Bionic con arquitectura de 64 bits y Neural Engine</li>
+                            <li class="color-gris-oscuro">Cámara de 8 MP</li>
+                            <li class="color-gris-claro">Apertura ƒ / 2.4</li>
+                            <li class="color-gris-oscuro">Lente con cinco elementos</li>
+                            <li class="color-gris-claro">Filtro de infrarrojos híbrido</li>
+                            <li class="color-gris-oscuro">Sensor de iluminación en la parte trasera</li>
+                            <li class="color-gris-claro">Fotos en vivo</li>
+                            <li class="color-gris-oscuro">Autoenfoque</li>
+                            <li class="color-gris-claro">Panorama (hasta 43 MP)</li>
+                            <li class="color-gris-oscuro">HDR para fotos</li>
+                            <li class="color-gris-claro">Control de exposicion</li>
+                            <li class="color-gris-oscuro">Modo de ráfaga</li>
+                            <li class="color-gris-claro">Toque para enfocar</li>
+                            <li class="color-gris-oscuro">Modo temporizador</li>
+                            <li class="color-gris-claro">Estabilización de imagen automática</li>
+                            <li class="color-gris-oscuro">Reconocimiento corporal y facial</li>
+                            <li class="color-gris-claro">Geoetiquetado para fotos</li>
+                            <li class="color-gris-oscuro">Grabe video en 1080p HD a 30 fps</li>
+                            <li class="color-gris-claro">Video en cámara lenta en 720p a 120 fps</li>
+                            <li class="color-gris-oscuro">Vídeo a intervalos con estabilización</li>
+                            <li class="color-gris-claro">Zoom de video 3x</li>
+                            <li class="color-gris-oscuro">Cámara FaceTime HD</li>
+                            <li class="color-gris-claro">Fotos de 1,2 megapíxeles</li>
+                            <li class="color-gris-oscuro">Apertura ƒ / 2.4</li>
+                            <li class="color-gris-claro">Grabar video en 720p HD</li>
+                            <li class="color-gris-oscuro">Batería de polímero de litio recargable incorporada de 32,4 vatios-hora</li>
+                            <li class="color-gris-claro">Hasta 10 horas navegando por Internet (a través de WiFi) o viendo videos</li>
+                            <li class="color-gris-oscuro">Carga a través de USB-C o adaptador de corriente</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p><strong>Compatibilidad:</strong></p>
+                        <p>Apple Pencil (primera generación)</p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPad</p>
+                        <p>Cable de Lightning a USB-C</p>
+                        <p>Adaptador de corriente USB-C</p>
+                        <p><strong>Almacenamiento</strong></p>
+                        <p>32 GB y 128 GB</p>
+                        <p><strong>Medidas</strong></p>
+                        <p>25,06 x 17,41 x 0,75 cm , 490 gramos</p>
+                        <p><strong>Sistema Operativo</strong></p>
+                        <p>iPadOS 14.</p>
+                        <p>Aplicaciones integradas: acciones, calendario, tienda de aplicaciones, mensajes, archivos, libros, cámara, contactos, notas de voz, FaceTime, fotos, recordatorios, configuración, iTunes Store, mapas, reloj, correo, música, notas, asignaciones, Podcasts, Safari, Siri, Tips, TV, Home y Find My Aplicaciones gratuitas de Apple: Apple Store, Clips, GarageBand, iMovie, Keynote, Music Memos, Numbers, Pages, Remote, Support y Swift Playgrounds</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+
+            <section class="fondo-modal-detalles" id="detalles-ipad-7th">
+                <div class="modal-detalles">
+                    <div class="especificaciones">
+                        <h2>Especificaciones</h2>
+                        <ul>
+                            <li class="color-gris-claro">Pantalla Multi-Touch de 10,2 pulgadas (diagonal) retroiluminada por LED con tecnología IPS</li>
+                            <li class="color-gris-oscuro">Resolución de 2160 x 1620 a 264 pixeles por pulgada (ppi). Brillo de 500 nits</li>
+                            <li class="color-gris-claro">Revestimiento oleofóbico resistente a huellas dactilares</li>
+                            <li class="color-gris-oscuro">Chip A10 Fusion con arquitectura de 64 bits. Coprocesador M10 integrado</li>
+                            <li class="color-gris-claro">Almacenamiento 32 GB y 128 GB</li>
+                            <li class="color-gris-oscuro">Cámara de 8 MP</li>
+                            <li class="color-gris-claro">Apertura de ƒ/2.4</li>
+                            <li class="color-gris-oscuro">Lente de cinco elementos</li>
+                            <li class="color-gris-claro">Filtro híbrido IR</li>
+                            <li class="color-gris-oscuro">Iluminación posterior</li>
+                            <li class="color-gris-claro">Live Photos</li>
+                            <li class="color-gris-oscuro">Autoenfoque</li>
+                            <li class="color-gris-claro">Fotos panorámicas (hasta 43 MP)</li>
+                            <li class="color-gris-oscuro">HDR para fotos</li>
+                            <li class="color-gris-claro">Control de exposición</li>
+                            <li class="color-gris-oscuro">Modo Ráfaga</li>
+                            <li class="color-gris-claro">Enfoque con un toque</li>
+                            <li class="color-gris-oscuro">Modo Temporizador</li>
+                            <li class="color-gris-claro">Estabilización automática de imagen</li>
+                            <li class="color-gris-oscuro">Detección corporal y facial</li>
+                            <li class="color-gris-claro">Geoetiquetado de fotos</li>
+                            <li class="color-gris-oscuro">Grabación de video HD de 1080p a 30 cps</li>
+                            <li class="color-gris-claro">Video en cámara lenta de 720p a 120 cps</li>
+                            <li class="color-gris-oscuro">Video en cámara rápida con estabilización</li>
+                            <li class="color-gris-claro">Zoom de video de 3x</li>
+                            <li class="color-gris-oscuro">Cámara FaceTime HD: Fotos de 1,2 MP</li>
+                            <li class="color-gris-claro">Apertura de ƒ/2.2</li>
+                            <li class="color-gris-oscuro">Grabación de video HD de 720p</li>
+                            <li class="color-gris-claro">Batería de polímero de litio recargable integrada de 32,4 Wh</li>
+                            <li class="color-gris-oscuro">Hasta 10 horas para navegar por Internet a través de Wi-Fi, ver videos o escuchar música</li>
+                            <li class="color-gris-claro">Carga mediante el puerto USB de un computador o con un adaptador de corriente</li>
+                        </ul>
+                    </div>
+                    <div class="info-producto">
+                        <h2>Información del Producto</h2>
+                        <p>Viene con una cámara de 8 MP, una cámara FaceTime HD, Touch ID, Wi-Fi y 4G LTE3, una batería que dura todo el día4 y un chip A10 Fusion con toda la potencia y la eficiencia que esperarías de un computador. Puedes acceder a más de un millón de apps en el App Store, incluso apps de realidad aumentada. Además, iOS 11 convierte el iPad en un dispositivo más poderoso, personal e inteligente, para que puedas hacer más cosas que antes. iPad. No hay nada igual.</p>
+                        <p><strong>Caja</strong></p>
+                        <p>iPad</p>
+                        <p>Cable de conector Lightning a USB</p>
+                        <p>Adaptador de corriente USB</p>
+                        <p><strong>Touch ID</strong></p>
+                        <p>Giroscopio de tres ejes</p>
+                        <p>Acelerómetro</p>
+                        <p>Barómetro</p>
+                        <p>Sensor de luz ambiente</p>
+                        <p><strong>Siri</strong></p>
+                        <p>Asistente inteligente</p>
+                        <p><strong>Garantía</strong></p>
+                        <p>Un año a nivel mundial en tiendas autorizadas por Apple.</p>
+                    </div>
+                    <div class="modal-cerrar-detalles"><a href="#">Cerrar</a></div>
+                </div>
+            </section>
+            <!-- FIN MODAL DETALLES PRODUCTOS-->
+        </section>
+        <!-- FIN PRODUCTOS -->
+    </div>
+
+    <div class="toast-container"></div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="contenedor">
+                <div class="contenedor-logo">
+                    <a href="../inicio_sitio/index.html">
+                        <img src="../../imagenes/logo.png" alt="logo iStore">
+                    </a>
+                </div>
+                <div class="links-footer">
+                    <div class="links-istore">
+                        <ul>
+                            <P class="titulo-istore">iStore</P>
+                            <li class="link-istore"><a href="#">¿Quiénes somos?</a></li>
+                            <li class="link-istore"><a href="#">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="links-soporte">
+                        <ul>
+                            <P class="titulo-soporte">Soporte</P>
+                            <li class="link-soporte"><a href="#">Preguntas frecuentes</a></li>
+                            <li class="link-soporte"><a href="#">Términos y condiciones</a></li>
+                            <li class="link-soporte"><a href="#">Promociones vigentes</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="redes">
+                    <P class="titulo-redes">Redes</P>
+                    <a href="https://www.facebook.com/" target="blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/" target="blank"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </footer>
+        <!-- FIN FOOTER -->
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"
+    integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU"
+    crossorigin="anonymous"
+    ></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj"
+        crossorigin="anonymous"
+    ></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="../../js/script.js"></script>
+</body>
+</html>
