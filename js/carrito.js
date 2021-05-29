@@ -38,7 +38,7 @@ function init(){
             localStorage.clear();
             $(".table").empty();
             $('.contenedor-vaciar').empty();
-            $('.carrito-vacio').append('<h2 class="aviso-carrito-vacio" style="font-family: sans-serif;">Su carrito está vacío <a href="../inicio_sitio/index.html">¡Seguir comprando!</a></h2>')
+            $('.carrito-vacio').append('<h2 class="aviso-carrito-vacio" style="font-family: sans-serif;">Su carrito está vacío <a href="../../index.html">¡Seguir comprando!</a></h2>')
             notificacion("vaciarCarrito");
             $(".conteo-carrito span").text(0);
         };
